@@ -138,6 +138,9 @@ Trying root...
 Trying password123...
 Success! Password found: password123
 ```
+
+![Image](https://github.com/user-attachments/assets/27f183b6-229c-4a14-a407-83755b0f0bb8)
+
 ### 🌐 Subdomain Finder
 ```yaml
 Enter domain: example.com
@@ -153,3 +156,30 @@ Found Subdomains Summary:
 - mail.example.com
 - admin.example.com
 ```
+
+![Image](https://github.com/user-attachments/assets/18bb2771-b9b6-4106-8457-89bd3de0afb3)
+
+
+
+##  Use Cases
+
+  * Educational Labs: Practice attacks on DVWA, Metasploitable, OWASP Juice Shop, or custom vulnerable apps.
+
+  * Security Training: Understand real-world enumeration and brute-force attack scenarios.
+
+  * CTFs & Practice: Rapid testing of open ports and login attempts during Capture The Flag events.
+
+  * Custom Expansion: Serve as a base framework to integrate more advanced tools (e.g., HTTP fuzzing, service detection, etc.).
+
+⚠️ Important: Use this toolkit only on systems and networks you have explicit permission to test. Unauthorized usage may violate laws and ethical standards.
+
+
+
+
+# License
+
+This project is open-source and free to use by anyone for personal or educational purposes.  
+Feel free to modify, distribute, and use the code as long as proper credit is given to the original author, **Kasula Shiva**.
+
+
+
