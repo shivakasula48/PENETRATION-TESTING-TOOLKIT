@@ -12,7 +12,7 @@
 
 *MENTOR* : NEELA SANTOSH
 
-
+---
 
 
 A Python-based command-line toolkit for performing basic penetration testing tasks, including:
@@ -140,7 +140,7 @@ Open Ports Summary:
 ```
 
 ![Image](https://github.com/user-attachments/assets/a9edb5e4-5e95-4b87-b0c3-6c7205bac7b9)
-
+--
 ### 🔐 FTP Brute-Force
 
 ```yaml
