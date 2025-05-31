@@ -1,2 +1,67 @@
-# PENETRATION-TESTING-TOOLKIT
-The Penetration Testing Toolkit is a Python-based utility designed to assist ethical hackers and cybersecurity professionals in performing essential penetration testing tasks. This lightweight and modular toolkit is built to simplify tasks such as port scanning, brute-forcing login credentials, and discovering subdomains.
+# Penetration Testing Toolkit
+
+A Python-based command-line toolkit for performing basic penetration testing tasks, including:
+
+* Port Scanning
+
+* FTP Brute-Force Attacks
+
+* Subdomain Enumeration
+
+This tool is designed for ethical hacking exercises, cybersecurity training, and learning how various attacks work at a low level using Python.
+---
+
+## 🧭 Overview
+
+This project provides a beginner-friendly but effective way to understand the fundamental stages of penetration testing: reconnaissance, scanning, and brute-force access attempts. Built entirely in Python, it is intended for use in controlled environments like CTFs, local VMs (e.g., Metasploitable), and educational labs (e.g., DVWA, OWASP Juice Shop).
+
+
+
+
+## Features
+
+1. **Port Scanner**
+   - Scans a range of ports on a target IP or domain to identify open ports.
+   - Multithreaded for faster results.
+
+2. **Brute-Force Attack**
+   - Performs a brute-force attack on FTP servers.
+   - Uses a custom password list to test login credentials.
+
+3. **Subdomain Finder**
+   - Discovers subdomains for a given domain.
+   - Utilizes a predefined list of common subdomains.
+  
+4. **Menu-Driven Interface**
+   - Simple and interactive menu lets users easily select tools and input targets.
+  
+5. **Extensible Design**
+   - Modular code structure allows for easy addition of future penetration testing components.
+
+---
+
+## How It Works
+
+Each module is self-contained and follows a logical sequence:
+
+1. **Port Scanner**
+* Uses the `socket` module to attempt TCP connections to ports.
+
+* Employs `ThreadPoolExecutor` for multi-threaded scanning.
+
+* Displays open ports only.
+
+2. FTP Brute-Forcer
+* Uses the `ftplib` library to attempt login using credentials from a password file.
+
+* Stops immediately once valid credentials are found.
+
+* Handles connection failures and invalid inputs gracefully.
+
+3. Subdomain Finder
+* Uses `dnspython` to resolve subdomains.
+
+* Attempts to resolve common subdomain prefixes (e.g., `www`, `mail`, `admin`).
+
+* Displays all successfully resolved domains.
+
