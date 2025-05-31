@@ -93,13 +93,11 @@ git clone https://github.com/your-username/penetration_testing_toolkit.git
 cd penetration_testing_toolkit
 ```
 2 Run the toolkit:
-```
-bash
+```bash
 python3 toolkit.py
 ```
 3 Choose one of the options from the menu:
-```
-markdown
+```markdown
 Penetration Testing Toolkit
 1. Port Scanner
 2. Brute-Force Attack
