@@ -155,7 +155,7 @@ Success! Password found: password123
 ```
 
 ![Image](https://github.com/user-attachments/assets/27f183b6-229c-4a14-a407-83755b0f0bb8)
-
+--
 ### 🌐 Subdomain Finder
 ```yaml
 Enter domain: example.com
@@ -174,7 +174,7 @@ Found Subdomains Summary:
 
 ![Image](https://github.com/user-attachments/assets/18bb2771-b9b6-4106-8457-89bd3de0afb3)
 
-
+---
 
 ##  Use Cases
 
@@ -189,7 +189,7 @@ Found Subdomains Summary:
 ⚠️ Important: Use this toolkit only on systems and networks you have explicit permission to test. Unauthorized usage may violate laws and ethical standards.
 
 
-
+---
 
 # License
 
