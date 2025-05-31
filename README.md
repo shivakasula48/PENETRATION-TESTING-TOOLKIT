@@ -105,3 +105,51 @@ Penetration Testing Toolkit
 4. Exit
 ```
 
+## Sample Output
+
+### 🔍 Port Scanner
+
+```sql
+Enter target IP or domain: 192.168.1.1
+Enter start port: 20
+Enter end port: 100
+
+Scanning 192.168.1.1 for open ports...
+
+Port 21 is OPEN
+Port 22 is OPEN
+
+Open Ports Summary:
+- Port 21
+- Port 22
+```
+
+![Image](https://github.com/user-attachments/assets/a9edb5e4-5e95-4b87-b0c3-6c7205bac7b9)
+
+### 🔐 FTP Brute-Force
+
+```yaml
+Enter target IP: 192.168.1.1
+Enter username: admin
+Enter path to password file: passwords.txt
+
+Trying admin...
+Trying root...
+Trying password123...
+Success! Password found: password123
+```
+### 🌐 Subdomain Finder
+```yaml
+Enter domain: example.com
+
+Finding subdomains for example.com...
+
+Found subdomain: www.example.com
+Found subdomain: mail.example.com
+Found subdomain: admin.example.com
+
+Found Subdomains Summary:
+- www.example.com
+- mail.example.com
+- admin.example.com
+```
