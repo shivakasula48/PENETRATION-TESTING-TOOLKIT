@@ -1,5 +1,20 @@
 # Penetration Testing Toolkit
 
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME* : KASULA SHIVA
+
+*INTERN ID* : CT08DM748
+
+*DOMAIN* : Cyber Security & Ethical Hacking
+
+*DURATION* : 8WEEKS
+
+*MENTOR* : NEELA SANTOSH
+
+
+
+
 A Python-based command-line toolkit for performing basic penetration testing tasks, including:
 
 * Port Scanning
