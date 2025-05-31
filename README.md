@@ -48,23 +48,62 @@ This project provides a beginner-friendly but effective way to understand the fu
 Each module is self-contained and follows a logical sequence:
 
 1. **Port Scanner**
-* Uses the `socket` module to attempt TCP connections to ports.
+    * Uses the `socket` module to attempt TCP connections to ports.
 
-* Employs `ThreadPoolExecutor` for multi-threaded scanning.
+    * Employs `ThreadPoolExecutor` for multi-threaded scanning.
 
-* Displays open ports only.
+    * Displays open ports only.
 
 2. FTP Brute-Forcer
-* Uses the `ftplib` library to attempt login using credentials from a password file.
+    * Uses the `ftplib` library to attempt login using credentials from a password file.
 
-* Stops immediately once valid credentials are found.
+    * Stops immediately once valid credentials are found.
 
-* Handles connection failures and invalid inputs gracefully.
+    * Handles connection failures and invalid inputs gracefully.
 
 3. Subdomain Finder
-* Uses `dnspython` to resolve subdomains.
+    * Uses `dnspython` to resolve subdomains.
 
-* Attempts to resolve common subdomain prefixes (e.g., `www`, `mail`, `admin`).
+    * Attempts to resolve common subdomain prefixes (e.g., `www`, `mail`, `admin`).
 
-* Displays all successfully resolved domains.
+    * Displays all successfully resolved domains.
+
+---
+
+## Requirements
+
+Make sure you have Python 3.6 or later installed.
+
+Install dependencies using pip:
+```bash
+pip install dnspython
+```
+
+No additional libraries are required.
+
+---
+
+## Usage
+
+1 Clone this repository:
+
+```bash
+
+git clone https://github.com/your-username/penetration_testing_toolkit.git
+cd penetration_testing_toolkit
+```
+2 Run the toolkit:
+```
+bash
+python3 toolkit.py
+```
+3 Choose one of the options from the menu:
+```
+markdown
+Penetration Testing Toolkit
+1. Port Scanner
+2. Brute-Force Attack
+3. Subdomain Finder
+4. Exit
+```
 
